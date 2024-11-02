@@ -1,0 +1,56 @@
+/* Estilos para el formulario de registro */
+#registrationForm {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+#registrationForm h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #007bff;
+}
+
+#registrationForm label {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+#registrationForm input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#registrationForm input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+#registrationForm input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+#registrationForm input[type="button"]:hover {
+    background-color: #0056b3;
+}
